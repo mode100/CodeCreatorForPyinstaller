@@ -11,12 +11,12 @@ pkg_list = []
 
 # パスを入力します
 def input_path():
-    _input = input("パスを入力して下さい> ")
+    _input = input("Input filepath> ")
     if os.path.exists(_input):
         return _input
     if os.path.exists(FOLDER+"\\"+_input):
         return FOLDER+"\\"+_input
-    print("[Error]そのパスは存在しません!")
+    print("[Error]The path doesn't exist!")
     return None
 
 #  パッケージの一覧を取得
