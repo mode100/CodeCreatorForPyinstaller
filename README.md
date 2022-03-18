@@ -5,6 +5,6 @@
 
 ## 使い方
 1. コンソールにおける"pip list"の出力を全てコピーして、"pkg_list.txt"にペースト
-2. このコードを実行して、ファイルパスを入力
+2. このコードを実行して、exeにする予定のpyファイルのパスを入力
 3. ”pyinstaller C:... --onefile -- noconsole --exclude-module ...”が出力される
 
