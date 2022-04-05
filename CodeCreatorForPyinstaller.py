@@ -78,10 +78,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    
-
-
-# python C:\Users\yuito\Documents\Works\Code\Python\ツール\excludeを作成.py
     
     
